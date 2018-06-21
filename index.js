@@ -1,5 +1,7 @@
 import react from 'react';
 
-const index = () => { console.log('Hello World!'); }
+import App from './src/App.js';
+
+const index = () => <App />;
 
 export default index;
